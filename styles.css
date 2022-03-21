@@ -1,0 +1,92 @@
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+/* Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap");
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  font-family: var(--primary-font);
+  line-height: 1.7rem;
+}
+
+.title {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: center;
+  top: 0;
+}
+
+.title h2 {
+  font-size: 1.5rem;
+}
+
+.title h3 {
+  line-height: 2rem;
+  font-size: 1rem;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+
+.wrapper {
+  margin: 30px;
+}
+
+.contents {
+  margin-bottom: 40px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  border-radius: 8px;
+}
+
+.fill {
+  padding: 15px;
+  font-family: var(--secondary-font);
+  text-transform: capitalize;
+}
+
+.fill p {
+  margin-bottom: 15px;
+}
+
+.steps-title {
+  border-bottom: solid gainsboro 1px;
+}
+
+.contents > .steps-title p {
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+}
+
+span {
+  font-weight: 800;
+}
+
+.others {
+  border-bottom: solid gainsboro 1px;
+  margin: 15px 0;
+}
+
+.others > p.points {
+  font-weight: 800;
+}
+
+audio {
+  margin-top: 10px;
+  width: 100%;
+  outline: none;
+}
+
+/* on desktop */
+@media screen {
+}
